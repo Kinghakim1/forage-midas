@@ -1,0 +1,7 @@
+general:
+  kafka-topic: transactions
+# If your repo uses the embedded Kafka provided by Spring’s test support,
+# this line wires the test broker into Spring Kafka automatically:
+spring:
+  kafka:
+    bootstrap-servers: ${spring.embedded.kafka.brokers:localhost:9092}
