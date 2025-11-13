@@ -29,3 +29,6 @@ general:
 logging:
   level:
     org.hibernate.SQL: warn
+
+server:
+  port: 33400
